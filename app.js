@@ -1,5 +1,3 @@
-// app.js
-
 import logResult, { add, subtract, multiply, divide } from './math.js';
 
 const num1 = document.getElementById("num1");
