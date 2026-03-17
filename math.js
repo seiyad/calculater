@@ -15,6 +15,9 @@ export function divide(a, b) {
   if (b === 0) {
     return "Cannot divide by 0";
   }
+  if(a==0){
+    return "you 0/number answer 0"
+  }
   return a / b;
 }
 
